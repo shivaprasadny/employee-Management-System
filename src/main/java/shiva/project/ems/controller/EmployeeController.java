@@ -9,6 +9,7 @@ import shiva.project.ems.service.EmployeeService;
 
 import java.util.List;
 
+@CrossOrigin("*")
 @AllArgsConstructor
 @RestController
 @RequestMapping("/api/employee")
